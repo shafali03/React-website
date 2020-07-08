@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 // pages
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
-
+import Contact from './Pages/Contact/Contact'
 
 
 function App() {
@@ -18,14 +18,20 @@ function App() {
           <li>
             <Link to="/about">About</Link>
           </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
         <hr />
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/about">
+          <Route path="/about">
             <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>
