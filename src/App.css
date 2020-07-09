@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+
+:root{
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+}
+
 html {
   font-size: 10px;
 }
@@ -38,6 +48,12 @@ li {
   letter-spacing: 3px;
   margin-right: -3px;
   transition: color.5s;
+}
+
+.container {
+  width: 100%;
+  max-width: 131.5rem;
+  margin: 0 auto;
 }
 
 .container ul {

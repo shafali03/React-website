@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import './App.css'
+import './Pages/Home/Home.css'
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
-        {/* <hr /> */}
+        <hr />
         <Switch>
           <Route exact path="/">
             <Home />
