@@ -5,21 +5,23 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
+import './App.css'
+import './Pages/Home/Home.css'
 
 
 function App() {
   return (
     <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+      <div className="container">
+        <ul className="navbar">
+          <li className="nav-link">
+            <Link className="nav-link" to="/">Home</Link>
           </li>
-          <li>
-            <Link to="/about">About</Link>
+          <li className="nav-link">
+            <Link className="nav-link" to="/about">About</Link>
           </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+          <li className="nav-link">
+            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
         <hr />

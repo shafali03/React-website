@@ -11,5 +11,10 @@ test('render home page without error', () => {
 
 test('render the title', () => {
   const wrapper = shallow(<Home />)
-  expect(wrapper.find('h1').text()).toContain("Home")
+  expect(wrapper.find('h1').text()).toContain("Barber Shop")
+})
+
+test('render sub heading', () => {
+  const wrapper = shallow(<Home />)
+  expect(wrapper.find('h2').text()).toContain("Welcome To")
 })
