@@ -8,8 +8,3 @@ test('render home page without error', () => {
   const homePage = wrapper.find("[data-test='home-page']")
   expect(homePage.length).toBe(1)
 })
-
-test('render the title', () => {
-  const wrapper = shallow(<Home />)
-  expect(wrapper.find('h1').text()).toContain("Home")
-})

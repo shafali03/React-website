@@ -1,9 +1,11 @@
 import React from 'react'
+import HomePageTitle from '../../components/BarberShop/HomePageTitle'
+
 
 function Home() {
   return (
     <div data-test="home-page">
-      <h1>Home</h1>
+      <HomePageTitle />
     </div>
   )
 }
