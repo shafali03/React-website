@@ -1,4 +1,5 @@
 import React from 'react'
+
 import HomePage from '../../components/HomePage/HomePage'
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <div data-test="home-page">
       <HomePage />
     </div>
+
   )
 }
 
