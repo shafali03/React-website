@@ -1,0 +1,13 @@
+.view-height {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-title {
+  padding: 3rem;
+}
+
+h2 {
+  font-size: 5.5rem;
+}
+
