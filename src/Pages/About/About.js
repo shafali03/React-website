@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutPageTitle from '../../components/AboutPageTitle/AboutPageTitle'
 
 function About() {
   return (
     <div data-test="about-page">
-      <h1>About us</h1>
+      <AboutPageTitle />
     </div>
   )
 }
