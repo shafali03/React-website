@@ -6,12 +6,16 @@
   flex-wrap: wrap;
 
 }
-
 .aligner {
   max-width: 100%;
-  padding: 9rem;
-  text-align: center;
-  
+  padding: 3rem;
+  text-align: center;  
+}
+
+.service-image {
+  padding: 5rem;  
+  margin: 2rem;
+  box-shadow: 0 0 0 2px var(--secondary-font-color);
 }
 
 h3 {
